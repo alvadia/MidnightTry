@@ -1,0 +1,118 @@
+[cfg] dataset=kion users=84511 events=773896 vocab=6459 device=cpu
+[base] epoch 1/4 loss=19.3728 valid={'recall@10': 0.06133333333333333, 'ndcg@10': 0.03759932753031183, 'map@10': 0.030194444444444447, 'recall': 0.06133333333333333, 'ndcg': 0.03759932753031183, 'map': 0.030194444444444447, 'coverage@k': 0.014088868245858492, 'entropy_norm': 0.381602417065437, 'top1_share': 0.0898, 'unmask_entropy_norm': 0.3851488381204439, 'unmask_top1_share': 0.099, 'rewatch@k': 0.05653333333333333}
+[base] epoch 2/4 loss=9.4926 valid={'recall@10': 0.11633333333333333, 'ndcg@10': 0.06068860832179594, 'map@10': 0.043707142857142854, 'recall': 0.11633333333333333, 'ndcg': 0.06068860832179594, 'map': 0.043707142857142854, 'coverage@k': 0.006347731847035145, 'entropy_norm': 0.30344053308558405, 'top1_share': 0.09306666666666667, 'unmask_entropy_norm': 0.29746019940570684, 'unmask_top1_share': 0.1, 'rewatch@k': 0.08503333333333332}
+[base] epoch 3/4 loss=8.0702 valid={'recall@10': 0.11766666666666667, 'ndcg@10': 0.06222740117476075, 'map@10': 0.04516216931216931, 'recall': 0.11766666666666667, 'ndcg': 0.06222740117476075, 'map': 0.04516216931216931, 'coverage@k': 0.004335036383341075, 'entropy_norm': 0.29452611839839826, 'top1_share': 0.09413333333333333, 'unmask_entropy_norm': 0.2845413745844042, 'unmask_top1_share': 0.1, 'rewatch@k': 0.08196666666666667}
+[base] epoch 4/4 loss=7.7381 valid={'recall@10': 0.11733333333333333, 'ndcg@10': 0.06362486055137284, 'map@10': 0.047085582010582015, 'recall': 0.11733333333333333, 'ndcg': 0.06362486055137284, 'map': 0.047085582010582015, 'coverage@k': 0.003870568199411674, 'entropy_norm': 0.29594402191132724, 'top1_share': 0.09513333333333333, 'unmask_entropy_norm': 0.28628861381825926, 'unmask_top1_share': 0.1, 'rewatch@k': 0.07963333333333333}
+[rm] epoch 1/4 mse=0.18123
+[rm] epoch 2/4 mse=0.18056
+[rm] epoch 3/4 mse=0.18030
+[rm] epoch 4/4 mse=0.17996
+[rmeval] {"n": 84511, "rmse": 0.4087008237838745, "spearman_pred": 0.11556119126397045, "rmse_popbaseline": 0.37929110439460384, "spearman_popbaseline": 0.37610873148695223, "mean_pred": 0.5197679400444031, "mean_true": 0.45310351252555847}
+[rl] step 50 reward=0.5263 kl=0.0166 ent=7.494 loss=0.0003 (11s)
+[rl] step 100 reward=0.5237 kl=-0.0046 ent=7.493 loss=0.0005 (22s)
+[rl] step 150 reward=0.5196 kl=0.0005 ent=7.497 loss=-0.0047 (32s)
+[rl] step 200 reward=0.5278 kl=0.0379 ent=7.500 loss=-0.0053 (43s)
+[rl] eval step 200: {'recall@10': 0.113, 'ndcg@10': 0.06252829544216795, 'map@10': 0.046987301587301585, 'recall': 0.113, 'ndcg': 0.06252829544216795, 'map': 0.046987301587301585, 'coverage@k': 0.0040253909273881405, 'entropy_norm': 0.297833486274457, 'top1_share': 0.09403333333333333, 'unmask_entropy_norm': 0.2841799349974408, 'unmask_top1_share': 0.1, 'rewatch@k': 0.08930000000000002, 'rm_reward_top1': 0.5407021641731262, 'rm_reward_top1_unmasked': 0.5400350093841553}
+[rl] step 250 reward=0.5224 kl=0.0018 ent=7.494 loss=0.0042 (57s)
+[rl] step 300 reward=0.5311 kl=0.0045 ent=7.496 loss=-0.0011 (68s)
+[rl] step 350 reward=0.5234 kl=0.0208 ent=7.491 loss=-0.0028 (78s)
+[rl] step 400 reward=0.5293 kl=-0.0081 ent=7.486 loss=-0.0056 (89s)
+[rl] eval step 400: {'recall@10': 0.108, 'ndcg@10': 0.05783991850949148, 'map@10': 0.04247632275132275, 'recall': 0.108, 'ndcg': 0.05783991850949148, 'map': 0.04247632275132275, 'coverage@k': 0.004489859111317542, 'entropy_norm': 0.29548757258222685, 'top1_share': 0.09483333333333334, 'unmask_entropy_norm': 0.28045524006318856, 'unmask_top1_share': 0.1, 'rewatch@k': 0.0905, 'rm_reward_top1': 0.5417056083679199, 'rm_reward_top1_unmasked': 0.543107807636261}
+[rl] step 450 reward=0.5224 kl=-0.0082 ent=7.485 loss=-0.0008 (103s)
+[rl] step 500 reward=0.5184 kl=-0.0081 ent=7.482 loss=0.0053 (113s)
+[rl] step 550 reward=0.5262 kl=-0.0261 ent=7.476 loss=0.0001 (124s)
+[rl] step 600 reward=0.5256 kl=0.0400 ent=7.472 loss=-0.0058 (135s)
+[rl] eval step 600: {'recall@10': 0.11133333333333334, 'ndcg@10': 0.059434227808116434, 'map@10': 0.043685846560846564, 'recall': 0.11133333333333334, 'ndcg': 0.059434227808116434, 'map': 0.043685846560846564, 'coverage@k': 0.0041802136553646075, 'entropy_norm': 0.29506129183838387, 'top1_share': 0.0942, 'unmask_entropy_norm': 0.27997196110433836, 'unmask_top1_share': 0.1, 'rewatch@k': 0.09066666666666667, 'rm_reward_top1': 0.5408137440681458, 'rm_reward_top1_unmasked': 0.5431346893310547}
+[rl] step 650 reward=0.5346 kl=0.0286 ent=7.456 loss=-0.0059 (149s)
+[rl] step 700 reward=0.5284 kl=0.0480 ent=7.451 loss=-0.0024 (159s)
+[rl] step 750 reward=0.5297 kl=0.0629 ent=7.444 loss=0.0043 (170s)
+[rl] step 800 reward=0.5252 kl=0.0198 ent=7.422 loss=0.0032 (180s)
+[rl] eval step 800: {'recall@10': 0.10633333333333334, 'ndcg@10': 0.056526433332968626, 'map@10': 0.04149338624338624, 'recall': 0.10633333333333334, 'ndcg': 0.056526433332968626, 'map': 0.04149338624338624, 'coverage@k': 0.004335036383341075, 'entropy_norm': 0.2958777417572528, 'top1_share': 0.0939, 'unmask_entropy_norm': 0.2850982984572229, 'unmask_top1_share': 0.1, 'rewatch@k': 0.08623333333333333, 'rm_reward_top1': 0.5411920547485352, 'rm_reward_top1_unmasked': 0.54344642162323}
+{
+ "base": {
+  "recall@10": 0.11286104767426726,
+  "ndcg@10": 0.06133579391248819,
+  "map@10": 0.045362607065521476,
+  "recall": 0.11286104767426726,
+  "ndcg": 0.06133579391248819,
+  "map": 0.045362607065521476,
+  "coverage@k": 0.005263972751199876,
+  "entropy_norm": 0.2985036290178737,
+  "top1_share": 0.09399249801800949,
+  "unmask_entropy_norm": 0.28614054989452165,
+  "unmask_top1_share": 0.1,
+  "rewatch@k": 0.09047579605021831,
+  "rm_reward_top1": 0.5305403470993042,
+  "rm_reward_top1_unmasked": 0.5294343829154968
+ },
+ "rl": {
+  "recall@10": 0.10656600915857108,
+  "ndcg@10": 0.056388658021680756,
+  "map@10": 0.04121911057694565,
+  "recall": 0.10656600915857108,
+  "ndcg": 0.056388658021680756,
+  "map": 0.04121911057694565,
+  "coverage@k": 0.004799504567270475,
+  "entropy_norm": 0.2959051533374722,
+  "top1_share": 0.09376767521387748,
+  "unmask_entropy_norm": 0.2853613829752274,
+  "unmask_top1_share": 0.1,
+  "rewatch@k": 0.08664315887872585,
+  "rm_reward_top1": 0.5415514707565308,
+  "rm_reward_top1_unmasked": 0.5437320470809937
+ },
+ "gen_base": {
+  "step1": {
+   "rm_reward": 0.5233359524607658,
+   "repeat_rate": 0.06,
+   "policy_logprob": -3.6437678186098736
+  },
+  "step2": {
+   "rm_reward": 0.5183499657114347,
+   "repeat_rate": 0.11333333333333333,
+   "policy_logprob": -3.6611307684580483
+  },
+  "step3": {
+   "rm_reward": 0.517153440117836,
+   "repeat_rate": 0.11333333333333333,
+   "policy_logprob": -3.7113551235198976
+  },
+  "step4": {
+   "rm_reward": 0.517644745906194,
+   "repeat_rate": 0.13333333333333333,
+   "policy_logprob": -3.7295114906628926
+  },
+  "step5": {
+   "rm_reward": 0.5182829302549362,
+   "repeat_rate": 0.17,
+   "policy_logprob": -3.737106362978617
+  }
+ },
+ "gen_rl": {
+  "step1": {
+   "rm_reward": 0.5249740283687909,
+   "repeat_rate": 0.07333333333333333,
+   "policy_logprob": -3.56944744904836
+  },
+  "step2": {
+   "rm_reward": 0.5263442774613698,
+   "repeat_rate": 0.10333333333333333,
+   "policy_logprob": -3.568022855122884
+  },
+  "step3": {
+   "rm_reward": 0.5258210696776708,
+   "repeat_rate": 0.16,
+   "policy_logprob": -3.4853928673267363
+  },
+  "step4": {
+   "rm_reward": 0.527259399096171,
+   "repeat_rate": 0.19666666666666666,
+   "policy_logprob": -3.56207857131958
+  },
+  "step5": {
+   "rm_reward": 0.5290993525584539,
+   "repeat_rate": 0.21,
+   "policy_logprob": -3.4894723590215047
+  }
+ }
+}

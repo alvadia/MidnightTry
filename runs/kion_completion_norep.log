@@ -1,0 +1,110 @@
+[cfg] dataset=kion users=84511 events=773896 vocab=6459 device=cpu
+[rl] step 50 reward=0.5084 kl=0.0136 ent=7.498 loss=0.0564 (11s)
+[rl] step 100 reward=0.4891 kl=0.0034 ent=7.503 loss=0.0830 (22s)
+[rl] step 150 reward=0.5043 kl=0.0128 ent=7.524 loss=0.0341 (33s)
+[rl] step 200 reward=0.5257 kl=-0.0041 ent=7.531 loss=-0.0051 (45s)
+[rl] eval step 200: {'recall@10': 0.112, 'ndcg@10': 0.0622841587600625, 'map@10': 0.04688650793650794, 'recall': 0.112, 'ndcg': 0.0622841587600625, 'map': 0.04688650793650794, 'coverage@k': 0.004335036383341075, 'entropy_norm': 0.29858249157695227, 'top1_share': 0.09396666666666667, 'unmask_entropy_norm': 0.28666051665848225, 'unmask_top1_share': 0.1, 'rewatch@k': 0.08923333333333333, 'rm_reward_top1': 0.5329585671424866, 'rm_reward_top1_unmasked': 0.5320324301719666}
+[rl] step 250 reward=0.5239 kl=0.0231 ent=7.537 loss=0.0014 (61s)
+[rl] step 300 reward=0.5328 kl=0.0342 ent=7.544 loss=-0.0002 (71s)
+[rl] step 350 reward=0.5216 kl=0.0272 ent=7.553 loss=0.0022 (82s)
+[rl] step 400 reward=0.4834 kl=0.0056 ent=7.566 loss=0.0937 (92s)
+[rl] eval step 400: {'recall@10': 0.10966666666666666, 'ndcg@10': 0.058821781724333826, 'map@10': 0.042992063492063484, 'recall': 0.10966666666666666, 'ndcg': 0.058821781724333826, 'map': 0.042992063492063484, 'coverage@k': 0.004335036383341075, 'entropy_norm': 0.2979754134640962, 'top1_share': 0.0931, 'unmask_entropy_norm': 0.28746290434753574, 'unmask_top1_share': 0.1, 'rewatch@k': 0.09166666666666666, 'rm_reward_top1': 0.5319677591323853, 'rm_reward_top1_unmasked': 0.5301593542098999}
+[rl] step 450 reward=0.4944 kl=-0.0037 ent=7.568 loss=0.0333 (106s)
+[rl] step 500 reward=0.5220 kl=0.0194 ent=7.578 loss=-0.0044 (116s)
+[rl] step 550 reward=0.5074 kl=0.0115 ent=7.581 loss=0.0417 (126s)
+[rl] step 600 reward=0.5214 kl=0.0048 ent=7.590 loss=0.0024 (137s)
+[rl] eval step 600: {'recall@10': 0.11366666666666667, 'ndcg@10': 0.06100892546628063, 'map@10': 0.04466124338624338, 'recall': 0.11366666666666667, 'ndcg': 0.06100892546628063, 'map': 0.04466124338624338, 'coverage@k': 0.0041802136553646075, 'entropy_norm': 0.2984723427070179, 'top1_share': 0.0927, 'unmask_entropy_norm': 0.2887367079471204, 'unmask_top1_share': 0.1, 'rewatch@k': 0.0925, 'rm_reward_top1': 0.5256485939025879, 'rm_reward_top1_unmasked': 0.523662269115448}
+[rl] step 650 reward=0.5278 kl=0.0335 ent=7.598 loss=0.0079 (151s)
+[rl] step 700 reward=0.4946 kl=-0.0033 ent=7.601 loss=0.0746 (161s)
+[rl] step 750 reward=0.4868 kl=0.0045 ent=7.609 loss=0.0523 (172s)
+[rl] step 800 reward=0.5235 kl=0.0153 ent=7.608 loss=-0.0001 (182s)
+[rl] eval step 800: {'recall@10': 0.10833333333333334, 'ndcg@10': 0.05596886802273323, 'map@10': 0.03980793650793651, 'recall': 0.10833333333333334, 'ndcg': 0.05596886802273323, 'map': 0.03980793650793651, 'coverage@k': 0.004799504567270475, 'entropy_norm': 0.29886215434528673, 'top1_share': 0.09346666666666667, 'unmask_entropy_norm': 0.29278542695386367, 'unmask_top1_share': 0.1, 'rewatch@k': 0.08903333333333334, 'rm_reward_top1': 0.5247283577919006, 'rm_reward_top1_unmasked': 0.5234116911888123}
+[cfg] dataset=kion users=84511 events=773896 vocab=6459 device=cpu
+{
+ "base": {
+  "recall@10": 0.11286104767426726,
+  "ndcg@10": 0.06133579391248819,
+  "map@10": 0.045362607065521476,
+  "recall": 0.11286104767426726,
+  "ndcg": 0.06133579391248819,
+  "map": 0.045362607065521476,
+  "coverage@k": 0.005263972751199876,
+  "entropy_norm": 0.2985036290178737,
+  "top1_share": 0.09399249801800949,
+  "unmask_entropy_norm": 0.28614054989452165,
+  "unmask_top1_share": 0.1,
+  "rewatch@k": 0.09047579605021831,
+  "rm_reward_top1": 0.5304692387580872,
+  "rm_reward_top1_unmasked": 0.5295401811599731
+ },
+ "rl": {
+  "recall@10": 0.11042349516630971,
+  "ndcg@10": 0.056705150818746164,
+  "map@10": 0.04021897778686836,
+  "recall": 0.11042349516630971,
+  "ndcg": 0.056705150818746164,
+  "map": 0.04021897778686836,
+  "coverage@k": 0.005883263663105744,
+  "entropy_norm": 0.2990580695390584,
+  "top1_share": 0.09292754789317367,
+  "unmask_entropy_norm": 0.29308744086024097,
+  "unmask_top1_share": 0.1,
+  "rewatch@k": 0.08982854302990144,
+  "rm_reward_top1": 0.5249821543693542,
+  "rm_reward_top1_unmasked": 0.5235388875007629
+ },
+ "gen_base": {
+  "step1": {
+   "rm_reward": 0.5202458598216375,
+   "repeat_rate": 0.07,
+   "policy_logprob": -3.7172346901893616
+  },
+  "step2": {
+   "rm_reward": 0.5191527075568835,
+   "repeat_rate": 0.08666666666666667,
+   "policy_logprob": -3.648383790651957
+  },
+  "step3": {
+   "rm_reward": 0.5178247857093811,
+   "repeat_rate": 0.12333333333333334,
+   "policy_logprob": -3.7101768096288046
+  },
+  "step4": {
+   "rm_reward": 0.520975814362367,
+   "repeat_rate": 0.15666666666666668,
+   "policy_logprob": -3.684260674317678
+  },
+  "step5": {
+   "rm_reward": 0.5200142780939738,
+   "repeat_rate": 0.16666666666666666,
+   "policy_logprob": -3.729559758504232
+  }
+ },
+ "gen_rl": {
+  "step1": {
+   "rm_reward": 0.5238457942008972,
+   "repeat_rate": 0.04666666666666667,
+   "policy_logprob": -3.8137216901779176
+  },
+  "step2": {
+   "rm_reward": 0.5206435717145602,
+   "repeat_rate": 0.11666666666666667,
+   "policy_logprob": -3.792569011847178
+  },
+  "step3": {
+   "rm_reward": 0.520346140662829,
+   "repeat_rate": 0.06,
+   "policy_logprob": -3.798058663209279
+  },
+  "step4": {
+   "rm_reward": 0.5213726641734441,
+   "repeat_rate": 0.15666666666666668,
+   "policy_logprob": -3.8068491729100544
+  },
+  "step5": {
+   "rm_reward": 0.5222001032034556,
+   "repeat_rate": 0.11666666666666667,
+   "policy_logprob": -3.807718071937561
+  }
+ }
+}

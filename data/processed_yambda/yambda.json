@@ -1,0 +1,11 @@
+{
+  "dataset": "yambda",
+  "vocab": 53377,
+  "n_events": 1431224,
+  "min_user_events": 15,
+  "min_item_freq": 5,
+  "date_range": [
+    "",
+    ""
+  ]
+}

@@ -1,0 +1,111 @@
+{
+ "models": [
+  {
+   "model": "base",
+   "mean_item_dur": 11949.724609375,
+   "mean_item_pct": 0.5374301075935364,
+   "mean_log_pop": 8.904744166228806,
+   "uniq_items": 49,
+   "gini_like": 1.0
+  },
+  {
+   "model": "kion_completion",
+   "mean_item_dur": 10882.8427734375,
+   "mean_item_pct": 0.5385026335716248,
+   "mean_log_pop": 8.843199553319296,
+   "uniq_items": 41,
+   "gini_like": 1.0,
+   "overlap_with_base@10": 0.8625875599999999,
+   "new_items_mean_dur": 5737.6171875,
+   "new_items_mean_pct": 0.5616264939308167,
+   "new_items_log_pop": 8.085848232804869
+  },
+  {
+   "model": "kion_completion_nokl",
+   "mean_item_dur": 8916.39453125,
+   "mean_item_pct": 0.529850423336029,
+   "mean_log_pop": 8.585175855396558,
+   "uniq_items": 31,
+   "gini_like": 1.0,
+   "overlap_with_base@10": 0.80683896,
+   "new_items_mean_dur": 5510.08203125,
+   "new_items_mean_pct": 0.5436878800392151,
+   "new_items_log_pop": 7.915842965298645
+  },
+  {
+   "model": "kion_completion_norep",
+   "mean_item_dur": 11717.15234375,
+   "mean_item_pct": 0.5425621271133423,
+   "mean_log_pop": 8.86320069123092,
+   "uniq_items": 60,
+   "gini_like": 1.0,
+   "overlap_with_base@10": 0.7422998,
+   "new_items_mean_dur": 6423.1279296875,
+   "new_items_mean_pct": 0.5655136108398438,
+   "new_items_log_pop": 8.112566654446915
+  },
+  {
+   "model": "kion_completion_poppen",
+   "mean_item_dur": 12212.0859375,
+   "mean_item_pct": 0.5740050673484802,
+   "mean_log_pop": 8.77202263120174,
+   "uniq_items": 92,
+   "gini_like": 1.0,
+   "overlap_with_base@10": 0.62344056,
+   "new_items_mean_dur": 9053.650390625,
+   "new_items_mean_pct": 0.5274807810783386,
+   "new_items_log_pop": 8.02520675972872
+  },
+  {
+   "model": "kion_grpo",
+   "mean_item_dur": 8587.8544921875,
+   "mean_item_pct": 0.5411974787712097,
+   "mean_log_pop": 8.425175134818751,
+   "uniq_items": 39,
+   "gini_like": 1.0,
+   "overlap_with_base@10": 0.74361548,
+   "new_items_mean_dur": 5249.5244140625,
+   "new_items_mean_pct": 0.5331487059593201,
+   "new_items_log_pop": 7.848721664885242
+  }
+ ],
+ "rm_calibration_by_duration": [
+  {
+   "dur_range": [
+    35.92856979370117,
+    3688.415283203125
+   ],
+   "n": 1251,
+   "pred": 0.5131745934486389,
+   "true": 0.34459632635116577
+  },
+  {
+   "dur_range": [
+    3688.415283203125,
+    5250.130859375
+   ],
+   "n": 1253,
+   "pred": 0.5228267312049866,
+   "true": 0.4666081666946411
+  },
+  {
+   "dur_range": [
+    5250.130859375,
+    7381.76025390625
+   ],
+   "n": 1346,
+   "pred": 0.5300732851028442,
+   "true": 0.5506389737129211
+  },
+  {
+   "dur_range": [
+    7381.76025390625,
+    163480.875
+   ],
+   "n": 1254,
+   "pred": 0.5159851908683777,
+   "true": 0.43423447012901306
+  }
+ ],
+ "corr_pred_true": 0.09693904265329524
+}

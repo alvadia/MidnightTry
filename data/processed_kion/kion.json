@@ -1,0 +1,11 @@
+{
+  "dataset": "kion",
+  "vocab": 6459,
+  "n_events": 773896,
+  "min_user_events": 5,
+  "min_item_freq": 5,
+  "date_range": [
+    "2021-03-13",
+    "2021-08-22"
+  ]
+}

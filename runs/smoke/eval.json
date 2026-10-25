@@ -1,0 +1,88 @@
+{
+ "base": {
+  "recall@10": 0.025,
+  "ndcg@10": 0.011693565629135004,
+  "map@10": 0.007727513227513228,
+  "recall": 0.025,
+  "ndcg": 0.011693565629135004,
+  "map": 0.007727513227513228,
+  "coverage@k": 0.97,
+  "entropy_norm": 0.9271974053212869,
+  "top1_share": 0.011433333333333334,
+  "unmask_entropy_norm": 0.9368453105088497,
+  "unmask_top1_share": 0.0112,
+  "rewatch@k": 0.1269,
+  "rm_reward_top1": 0.7452448010444641,
+  "rm_reward_top1_unmasked": 0.7453410029411316
+ },
+ "rl": {
+  "recall@10": 0.025,
+  "ndcg@10": 0.011693565629135004,
+  "map@10": 0.007727513227513228,
+  "recall": 0.025,
+  "ndcg": 0.011693565629135004,
+  "map": 0.007727513227513228,
+  "coverage@k": 0.97,
+  "entropy_norm": 0.927163723267369,
+  "top1_share": 0.011433333333333334,
+  "unmask_entropy_norm": 0.9368209215120264,
+  "unmask_top1_share": 0.0112,
+  "rewatch@k": 0.1269666666666667,
+  "rm_reward_top1": 0.7766938209533691,
+  "rm_reward_top1_unmasked": 0.7764115333557129
+ },
+ "gen_base": {
+  "step1": {
+   "rm_reward": 0.7675085802872975,
+   "repeat_rate": 0.8,
+   "policy_logprob": -0.7158805524457724
+  },
+  "step2": {
+   "rm_reward": 0.7673010806242625,
+   "repeat_rate": 0.8666666666666667,
+   "policy_logprob": -0.26019390899687667
+  },
+  "step3": {
+   "rm_reward": 0.7544350425402323,
+   "repeat_rate": 0.8666666666666667,
+   "policy_logprob": -0.5257966003244472
+  },
+  "step4": {
+   "rm_reward": 0.749878176053365,
+   "repeat_rate": 0.9333333333333333,
+   "policy_logprob": -0.06527802572122307
+  },
+  "step5": {
+   "rm_reward": 0.7489904880523681,
+   "repeat_rate": 1.0,
+   "policy_logprob": -0.006338755780818891
+  }
+ },
+ "gen_rl": {
+  "step1": {
+   "rm_reward": 0.761783919731776,
+   "repeat_rate": 0.8333333333333334,
+   "policy_logprob": -0.4495395986441205
+  },
+  "step2": {
+   "rm_reward": 0.7623289903004964,
+   "repeat_rate": 0.8666666666666667,
+   "policy_logprob": -0.4381717644122451
+  },
+  "step3": {
+   "rm_reward": 0.7549555877844493,
+   "repeat_rate": 0.9333333333333333,
+   "policy_logprob": -0.17728643394875973
+  },
+  "step4": {
+   "rm_reward": 0.7530981401602427,
+   "repeat_rate": 0.9333333333333333,
+   "policy_logprob": -0.07956472085678166
+  },
+  "step5": {
+   "rm_reward": 0.7495864570140839,
+   "repeat_rate": 0.9666666666666667,
+   "policy_logprob": -0.10925290255848191
+  }
+ }
+}

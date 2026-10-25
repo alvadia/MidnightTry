@@ -1,0 +1,11 @@
+{
+  "dataset": "synthetic",
+  "vocab": 500,
+  "n_events": 51123,
+  "min_user_events": 0,
+  "min_item_freq": 0,
+  "date_range": [
+    "synthetic",
+    ""
+  ]
+}

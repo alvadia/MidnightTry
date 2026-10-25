@@ -1,0 +1,40 @@
+[
+ {
+  "step": 3,
+  "recall@10": 0.0,
+  "ndcg@10": 0.0,
+  "map@10": 0.0,
+  "recall": 0.0,
+  "ndcg": 0.0,
+  "map": 0.0,
+  "coverage@k": 0.666,
+  "entropy_norm": 0.8927465804468331,
+  "top1_share": 0.012,
+  "unmask_entropy_norm": 0.9004291322958264,
+  "unmask_top1_share": 0.013,
+  "rewatch@k": 0.139,
+  "rm_reward_top1": 0.7842261791229248,
+  "rm_reward_top1_unmasked": 0.7815131545066833
+ },
+ {
+  "step": 6,
+  "reward": 0.7519479990005493,
+  "kl": 1.8633410930633545,
+  "entropy": 0.659915030002594,
+  "loss": 0.09434976428747177,
+  "recall@10": 0.06,
+  "ndcg@10": 0.02972702059557732,
+  "map@10": 0.020694444444444442,
+  "recall": 0.06,
+  "ndcg": 0.02972702059557732,
+  "map": 0.020694444444444442,
+  "coverage@k": 0.676,
+  "entropy_norm": 0.8953640372875069,
+  "top1_share": 0.014,
+  "unmask_entropy_norm": 0.9019528661062537,
+  "unmask_top1_share": 0.015,
+  "rewatch@k": 0.142,
+  "rm_reward_top1": 0.7771021127700806,
+  "rm_reward_top1_unmasked": 0.7746350765228271
+ }
+]
